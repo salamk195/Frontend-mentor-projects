@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>QRcard</title>
+    <style>
+      body {
+        background-color: rgb(166, 229, 182);
+      }
+      .card {
+        width: 25%;
+        height: 70vh;
+        background-color: white;
+        margin-left: 36%;
+        border-radius: 5%;
+        margin-top: 5%;
+        overflow: hidden;
+      }
+      .qrcode {
+        width: 89%;
+        height: 45vh;
+        background-color: rgb(140, 196, 233);
+        border-radius: 5%;
+        margin-left: 6%;
+        margin-top: 5%;
+        display: flex;
+      }
+      .qrcode img {
+        align-items: center;
+        justify-content: center;
+      }
+      .card p {
+        font-size: large;
+        font-weight: bolder;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="card">
+      <div class="qrcode">
+        <img src="QR_code_for_mobile_English_Wikipedia.svg.png" alt="QRimage" />
+      </div>
+      <p>Improve your Frontend skills by building projects</p>
+    </div>
+  </body>
+</html>
